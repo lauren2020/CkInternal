@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import ClassPeriodsList from './classPeriods/list/ClassPeriodsList'
+import NewClassPeriodForm from './classPeriods/NewClassPeriodForm'
+import { Button } from 'reactstrap';
 
 class ClassPeriodsProvider extends React.Component {
   render () {
@@ -10,8 +12,8 @@ class ClassPeriodsProvider extends React.Component {
         <ClassPeriodsList {...{
           classPeriods: this.props.classPeriods
         }}>
-
         </ClassPeriodsList>
+        <NewClassPeriodForm></NewClassPeriodForm>
       </React.Fragment>
     );
   }

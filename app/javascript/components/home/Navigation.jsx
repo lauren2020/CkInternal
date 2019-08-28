@@ -1,16 +1,13 @@
 import React from "react"
+import { Button } from 'reactstrap';
 
 const Navigation = () => {
     return (
         <>
         <div>
-          Class Periods
-        </div>
-        <div>
-          Schools
-        </div>
-        <div>
-          Staff
+            <Button color="primary">Class Periods</Button>{' '}
+            <Button color="primary">Schools</Button>{' '}
+            <Button color="primary">Staff</Button>{' '}
         </div>
         </>
     )
