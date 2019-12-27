@@ -1,0 +1,89 @@
+$DARK_PRIMARY_COLOR: #0097A7;
+$PRIMARY_COLOR: #00BCD4;
+$LIGHT_PRIMARY_COLOR: #B2EBF2;
+$PRIMARY_TEXT: #212121;
+$SECONDARY_TEXT: #757575;
+$DIVIDER_COLOR: #BDBDBD;
+$TEXT_ICON: #FFFFFF;
+$DARK_ACCENT_COLOR: rgb(224, 169, 1);
+$ACCENT_COLOR: #FFC107;
+$LIGHT_ACCENT_COLOR: rgb(250, 198, 44);
+$PRIMARY_FONT: Arial, Helvetica, sans-serif;
+
+.body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.topBar {
+    background-color: $PRIMARY_COLOR;
+    width: 100vw;
+    margin: 0px;
+    padding: 10px;
+    color: $TEXT_ICON;
+    font-family: $PRIMARY_FONT;
+}
+
+.container {
+    background-color: $LIGHT_PRIMARY_COLOR;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: $PRIMARY_FONT;
+}
+
+.loginContainer {
+    padding: 10px;
+
+}
+
+.form-group {
+    width: 200px;
+}
+
+.userPageContainer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigationBar {
+    background-color: $ACCENT_COLOR;
+}
+
+.navigationButton {
+    background-color: $ACCENT_COLOR;
+}
+.navigationButton:hover {
+    cursor: pointer;
+    background-color: $LIGHT_ACCENT_COLOR;
+}
+
+.navigationButtonSelected {
+    background-color: $DARK_ACCENT_COLOR;
+}
+
+.userBanner {
+    background-color: $PRIMARY_COLOR;
+    padding: 20px;
+}
+
+.mainUserInfoBanner {
+    background-color: #4eaff5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px;
+}
+
+.userInfo {
+    padding: 10px;
+}
+
+.circularSquare {
+    height: 150px;
+    border-radius: 50%;
+    margin: 0;
+}

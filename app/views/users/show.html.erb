@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body class="body">
+    <div class="userPageHeader">
+        <%= render partial: "users/partials/user_banner", :locals => {:user => @user } %>
+        <%= render partial: "users/partials/navigation_bar", :locals => {:pages => @pages } %>
+    </div>
+    <div class="userPageContainer">
+        <%= javascript_pack_tag 'application' %>
+        <%= react_component("HomeProvider", {} ) %>
+    </div>
+<body>
+</html>

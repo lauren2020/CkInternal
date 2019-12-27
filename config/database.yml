@@ -23,10 +23,10 @@ default: &default
 
 development:
   <<: *default
-  database: df1bb0f2itce49
-  username: lhxowqgolvvwgd
-  password: 64e9bb62f3ba552c258e28d167d78112aa5707b6f94ce228e06f1c780395e5e2
-  host: ec2-50-17-231-192.compute-1.amazonaws.com
+  database: ckinternal_dev
+  username: admin
+  password: admin_dev_password
+  host: localhost
   port: 5432
 
   
